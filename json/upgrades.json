@@ -5,7 +5,7 @@
     "description": "A shared room for all your Master students. Used to be a server room.",
     "effect": "Master Students produce +2 data per second.",
     "icon": "fa-group",
-    "cost": 4e2,
+    "cost": 4e0,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "workers-masterstudents", "property": "hired", "threshold": 5 }],
     "constant": 2
@@ -16,13 +16,13 @@
     "description": "Not having to share one is a blessing.",
     "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 4e3,
+    "cost": 4e0,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [
       { "key": "upgrade-masterstudents1", "property": "used", "threshold": 1 },
       { "key": "workers-phdstudents", "property": "hired", "threshold": 1 }
     ],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-masterstudents3",
@@ -30,10 +30,10 @@
     "description": "Give your Master students access to high performance computing resources.",
     "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 4e4,
+    "cost": 4e0,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-masterstudents2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-masterstudents4",
@@ -41,10 +41,10 @@
     "description": "Weekly counseling with a professional physicist.",
     "effect": "Master Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 4e5,
+    "cost": 4e0,
     "targets": [{ "key": "workers-masterstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-masterstudents3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-phdstudents1",
@@ -52,10 +52,10 @@
     "description": "Somebody takes care of your PhD Students.",
     "effect": "PhD Students produce +16 data per second.",
     "icon": "fa-group",
-    "cost": 6e3,
+    "cost": 6e0,
     "targets": [{ "key": "workers-phdstudents", "property": "rate" }],
     "requirements": [{ "key": "workers-phdstudents", "property": "hired", "threshold": 5 }],
-    "constant": 16
+    "constant": 1
   },
   {
     "key": "upgrade-phdstudents2",
@@ -63,10 +63,10 @@
     "description": "Each PhD student gets a quiet place for themselves.",
     "effect": "PhD Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e4,
+    "cost": 6e0,
     "targets": [{ "key": "workers-phdstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-phdstudents1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-phdstudents3",
@@ -74,10 +74,10 @@
     "description": "1 year of research stay abroad for your PhD students.",
     "effect": "PhD Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e5,
+    "cost": 6e0,
     "targets": [{ "key": "workers-phdstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-phdstudents2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-phdstudents4",
@@ -85,10 +85,10 @@
     "description": "A personal assistant that takes care of boring tasks.",
     "effect": "PhD Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e6,
+    "cost": 6e0,
     "targets": [{ "key": "workers-phdstudents", "property": "rate" }],
     "requirements": [{ "key": "upgrade-phdstudents3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-postdocs1",
@@ -96,10 +96,10 @@
     "description": "Hard work also requires soft skills.",
     "effect": "Postdocs produce +50 data per second.",
     "icon": "fa-group",
-    "cost": 7.5e4,
+    "cost": 7.5e0,
     "targets": [{ "key": "workers-postdocs", "property": "rate" }],
     "requirements": [{ "key": "workers-postdocs", "property": "hired", "threshold": 5 }],
-    "constant": 50
+    "constant": 1
   },
   {
     "key": "upgrade-postdocs2",
@@ -107,10 +107,10 @@
     "description": "Let your Postdocs go to more conferences.",
     "effect": "Postdocs produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 7.5e5,
+    "cost": 7.5e0,
     "targets": [{ "key": "workers-postdocs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-postdocs1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-postdocs3",
@@ -118,10 +118,10 @@
     "description": "A year without teaching means more productivity.",
     "effect": "Postdocs produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 7.5e6,
+    "cost": 7.5e0,
     "targets": [{ "key": "workers-postdocs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-postdocs2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-postdocs4",
@@ -129,10 +129,10 @@
     "description": "You wish...",
     "effect": "Postdocs produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 7.5e7,
+    "cost": 7.5e0,
     "targets": [{ "key": "workers-postdocs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-postdocs3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-fellows1",
@@ -140,10 +140,10 @@
     "description": "Participate but also get work done.",
     "effect": "Fellows produce +4k data per second.",
     "icon": "fa-group",
-    "cost": 6e5,
+    "cost": 6e0,
     "targets": [{ "key": "workers-fellows", "property": "rate" }],
     "requirements": [{ "key": "workers-fellows", "property": "hired", "threshold": 5 }],
-    "constant": 4e3
+    "constant": 1
   },
   {
     "key": "upgrade-fellows2",
@@ -151,10 +151,10 @@
     "description": "Extend your Fellow's contracts.",
     "effect": "Fellows produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e6,
+    "cost": 6e0,
     "targets": [{ "key": "workers-fellows", "property": "rate" }],
     "requirements": [{ "key": "upgrade-fellows1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-fellows3",
@@ -162,10 +162,10 @@
     "description": "Your Fellows are happier and you don't have to pay for it. Excellent!",
     "effect": "Fellows produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e7,
+    "cost": 6e0,
     "targets": [{ "key": "workers-fellows", "property": "rate" }],
     "requirements": [{ "key": "upgrade-fellows2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-fellows4",
@@ -173,10 +173,10 @@
     "description": "Makes sure your Fellows go home at one point and eventually get some rest.",
     "effect": "Fellows produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6e8,
+    "cost": 6e0,
     "targets": [{ "key": "workers-fellows", "property": "rate" }],
     "requirements": [{ "key": "upgrade-fellows3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-permanent1",
@@ -184,10 +184,10 @@
     "description": "Someone to take care of your staff's children.",
     "effect": "Permanent staff produces +20k data per second.",
     "icon": "fa-group",
-    "cost": 6.5e6,
+    "cost": 6.5e0,
     "targets": [{ "key": "workers-permanent", "property": "rate" }],
     "requirements": [{ "key": "workers-permanent", "property": "hired", "threshold": 5 }],
-    "constant": 2e4
+    "constant": 2e0
   },
   {
     "key": "upgrade-permanent2",
@@ -195,10 +195,10 @@
     "description": "Let your Staff use cars you pay for.",
     "effect": "Permanent staff produces twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6.5e7,
+    "cost": 6.5e0,
     "targets": [{ "key": "workers-permanent", "property": "rate" }],
     "requirements": [{ "key": "upgrade-permanent1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-permanent3",
@@ -206,10 +206,10 @@
     "description": "Teach your Permanent Staff some people skills.",
     "effect": "Permanent staff produces twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6.5e8,
+    "cost": 6.5e0,
     "targets": [{ "key": "workers-permanent", "property": "rate" }],
     "requirements": [{ "key": "upgrade-permanent2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-permanent4",
@@ -217,10 +217,10 @@
     "description": "Coffee => Productivity. Simple.",
     "effect": "Permanent staff produces twice as much data per second.",
     "icon": "fa-group",
-    "cost": 6.5e9,
+    "cost": 6.5e0,
     "targets": [{ "key": "workers-permanent", "property": "rate" }],
     "requirements": [{ "key": "upgrade-permanent3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-profs1",
@@ -228,10 +228,10 @@
     "description": "Hire extra teaching assistants to take work off your professors' shoulders.",
     "effect": "Professors produce +300k data per second.",
     "icon": "fa-group",
-    "cost": 5e7,
+    "cost": 5e0,
     "targets": [{ "key": "workers-profs", "property": "rate" }],
     "requirements": [{ "key": "workers-profs", "property": "hired", "threshold": 5 }],
-    "constant": 3e5
+    "constant": 3e0
   },
   {
     "key": "upgrade-profs2",
@@ -239,10 +239,10 @@
     "description": "Secretaries have to do a lot of work at University. It's good to have them!",
     "effect": "Professors produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 5e8,
+    "cost": 5e0,
     "targets": [{ "key": "workers-profs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-profs1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-profs3",
@@ -250,10 +250,10 @@
     "description": "Professors take a year off teaching to be more productive.",
     "effect": "Professors produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 5e9,
+    "cost": 5e0,
     "targets": [{ "key": "workers-profs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-profs2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-profs4",
@@ -261,10 +261,10 @@
     "description": "Record once, use often. No more useless time spent in lectures.",
     "effect": "Professors produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 5e10,
+    "cost": 5e0,
     "targets": [{ "key": "workers-profs", "property": "rate" }],
     "requirements": [{ "key": "upgrade-profs3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-nobel1",
@@ -272,10 +272,10 @@
     "description": "Delicious Swedish Meatballs that are (probably) served at the Nobel Prize ceremony.",
     "effect": "Nobel Laureates produce +3M data per second.",
     "icon": "fa-group",
-    "cost": 3e8,
+    "cost": 3e0,
     "targets": [{ "key": "workers-nobel", "property": "rate" }],
     "requirements": [{ "key": "workers-nobel", "property": "hired", "threshold": 5 }],
-    "constant": 3e6
+    "constant": 3e0
   },
   {
     "key": "upgrade-nobel2",
@@ -283,10 +283,10 @@
     "description": "Name the streets at your facility after Nobel Laureates.",
     "effect": "Nobel Laureates produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 3e9,
+    "cost": 3e0,
     "targets": [{ "key": "workers-nobel", "property": "rate" }],
     "requirements": [{ "key": "upgrade-nobel1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-nobel3",
@@ -294,10 +294,10 @@
     "description": "At this point in their career your Nobel Laureates can afford to take a vacation once in a while.",
     "effect": "Nobel Laureates produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 3e10,
+    "cost": 3e0,
     "targets": [{ "key": "workers-nobel", "property": "rate" }],
     "requirements": [{ "key": "upgrade-nobel2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-nobel4",
@@ -305,10 +305,10 @@
     "description": "Only Marie Curie and John Bardeen received such high honours in Physics.",
     "effect": "Nobel Laureates produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 3e11,
+    "cost": 3e0,
     "targets": [{ "key": "workers-nobel", "property": "rate" }],
     "requirements": [{ "key": "upgrade-nobel3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-summies1",
@@ -316,10 +316,10 @@
     "description": "Interesting lectures given by the best in the field.",
     "effect": "Summmer Students produce +80M data per second.",
     "icon": "fa-group",
-    "cost": 2e9,
+    "cost": 2e0,
     "targets": [{ "key": "workers-summies", "property": "rate" }],
     "requirements": [{ "key": "workers-summies", "property": "hired", "threshold": 5 }],
-    "constant": 8e7
+    "constant": 8e0
   },
   {
     "key": "upgrade-summies2",
@@ -327,10 +327,10 @@
     "description": "Have your Summies prepare interesting posters and explain them to their peers.",
     "effect": "Summer Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 2e10,
+    "cost": 2e0,
     "targets": [{ "key": "workers-summies", "property": "rate" }],
     "requirements": [{ "key": "upgrade-summies1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-summies3",
@@ -338,10 +338,10 @@
     "description": "A nice get-together to increase morale in the group.",
     "effect": "Summer Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 2e11,
+    "cost": 2e0,
     "targets": [{ "key": "workers-summies", "property": "rate" }],
     "requirements": [{ "key": "upgrade-summies2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-summies4",
@@ -349,10 +349,10 @@
     "description": "Awesome parties in the CERN pump hall. Sure the hangover does not increase productivity but your morale gets a huge boost.",
     "effect": "Summer Students produce twice as much data per second.",
     "icon": "fa-group",
-    "cost": 2e12,
+    "cost": 2e0,
     "targets": [{ "key": "workers-summies", "property": "rate" }],
     "requirements": [{ "key": "upgrade-summies3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-coffee",
@@ -360,7 +360,7 @@
     "description": "Addictively delicious. Also free.",
     "effect": "All workers produce twice as much data per second.",
     "icon": "fa-coffee",
-    "cost": 8e10,
+    "cost": 8e0,
     "targets": [
       { "key": "workers-phdstudents", "property": "rate" },
       { "key": "workers-postdocs", "property": "rate" },
@@ -379,7 +379,7 @@
       { "key": "workers-nobel", "property": "hired", "threshold": 1 },
       { "key": "workers-summies", "property": "hired", "threshold": 1 }
     ],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy1",
@@ -387,10 +387,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e2,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy2",
@@ -398,10 +398,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e3,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy1", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy3",
@@ -409,10 +409,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e4,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy2", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy4",
@@ -420,10 +420,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e5,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy3", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy5",
@@ -431,10 +431,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e6,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy4", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 0
   },
   {
     "key": "upgrade-energy6",
@@ -442,10 +442,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e7,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy5", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy7",
@@ -453,10 +453,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e8,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy6", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy8",
@@ -464,10 +464,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e9,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy7", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy9",
@@ -475,10 +475,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e10,
+    "cost": 2e0,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy8", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy10",
@@ -486,10 +486,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e11,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy9", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy11",
@@ -497,10 +497,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e12,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy10", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-energy12",
@@ -508,10 +508,10 @@
     "description": "Increased centre-of-mass energy.",
     "effect": "Double the amount of data per click.",
     "icon": "fa-bolt",
-    "cost": 2e13,
+    "cost": 2e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy11", "property": "used", "threshold": 1 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-lumi1",
@@ -519,10 +519,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+3 data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e2,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [],
-    "constant": 3
+    "constant": 1
   },
   {
     "key": "upgrade-lumi2",
@@ -530,10 +530,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+15 data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e3,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy1", "property": "used", "threshold": 1 }],
-    "constant": 15
+    "constant": 1
   },
   {
     "key": "upgrade-lumi3",
@@ -541,10 +541,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+75 data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e4,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy2", "property": "used", "threshold": 1 }],
-    "constant": 75
+    "constant": 1
   },
   {
     "key": "upgrade-lumi4",
@@ -552,10 +552,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+375 data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e5,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy3", "property": "used", "threshold": 1 }],
-    "constant": 375
+    "constant": 1
   },
   {
     "key": "upgrade-lumi5",
@@ -563,10 +563,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+1875 data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e6,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy4", "property": "used", "threshold": 1 }],
-    "constant": 1875
+    "constant": 1
   },
   {
     "key": "upgrade-lumi6",
@@ -574,10 +574,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+9.4k data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e7,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy5", "property": "used", "threshold": 1 }],
-    "constant": 9400
+    "constant": 1
   },
   {
     "key": "upgrade-lumi7",
@@ -585,10 +585,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+47k data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e8,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy6", "property": "used", "threshold": 1 }],
-    "constant": 47000
+    "constant": 1
   },
   {
     "key": "upgrade-lumi8",
@@ -596,10 +596,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+235k data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e9,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy7", "property": "used", "threshold": 1 }],
-    "constant": 235e3
+    "constant": 1e1
   },
   {
     "key": "upgrade-lumi9",
@@ -607,10 +607,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+1.2M data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e10,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy8", "property": "used", "threshold": 1 }],
-    "constant": 1.2e6
+    "constant": 1.2e1
   },
   {
     "key": "upgrade-lumi10",
@@ -618,10 +618,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+6M data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e11,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy9", "property": "used", "threshold": 1 }],
-    "constant": 6e6
+    "constant": 6e1
   },
   {
     "key": "upgrade-lumi11",
@@ -629,10 +629,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+30M data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e12,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy10", "property": "used", "threshold": 1 }],
-    "constant": 3e7
+    "constant": 3e1
   },
   {
     "key": "upgrade-lumi12",
@@ -640,10 +640,10 @@
     "description": "Increased instantaneous luminosity.",
     "effect": "+150M data per click.",
     "icon": "fa-bullseye",
-    "cost": 8e13,
+    "cost": 8e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [{ "key": "upgrade-energy11", "property": "used", "threshold": 1 }],
-    "constant": 1.5e8
+    "constant": 1.5e2
   },
   {
     "key": "upgrade-sps",
@@ -651,13 +651,13 @@
     "description": "A larger particle smasher.",
     "effect": "Ten times the amount of data per click.",
     "icon": "fa-circle-o-notch",
-    "cost": 5e5,
+    "cost": 5e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [
       { "key": "upgrade-energy3", "property": "used", "threshold": 1 },
       { "key": "upgrade-lumi3", "property": "used", "threshold": 1 }
     ],
-    "factor": 10
+    "factor": 1
   },
   {
     "key": "upgrade-tevatron",
@@ -665,13 +665,13 @@
     "description": "A larger particle smasher.",
     "effect": "Ten times the amount of data per click.",
     "icon": "fa-circle-o-notch",
-    "cost": 5e7,
+    "cost": 5e1,
     "targets": [{ "key": "lab", "property": "detector" }],
     "requirements": [
       { "key": "upgrade-energy6", "property": "used", "threshold": 1 },
       { "key": "upgrade-lumi6", "property": "used", "threshold": 1 }
     ],
-    "factor": 10
+    "factor": 1
   },
   {
     "key": "upgrade-lhc",
@@ -685,7 +685,7 @@
       { "key": "upgrade-energy9", "property": "used", "threshold": 1 },
       { "key": "upgrade-lumi9", "property": "used", "threshold": 1 }
     ],
-    "factor": 10
+    "factor": 1
   },
   {
     "key": "upgrade-cpv1",
@@ -696,7 +696,7 @@
     "cost": 7500,
     "targets": [{ "key": "research-cpv", "property": "reputation" }],
     "requirements": [{ "key": "research-cpv", "property": "level", "threshold": 5 }],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-inspire",
@@ -704,7 +704,7 @@
     "description": "Publish your research online.",
     "effect": "Double the reputation for all future research.",
     "icon": "fa-newspaper-o",
-    "cost": 1e12,
+    "cost": 1e1,
     "targets": [
       { "key": "research-cpv", "property": "reputation" },
       { "key": "research-jpsi", "property": "reputation" },
@@ -731,7 +731,7 @@
       { "key": "research-dstars", "property": "level", "threshold": 1 },
       { "key": "research-xib", "property": "level", "threshold": 1 }
     ],
-    "factor": 2
+    "factor": 1
   },
   {
     "key": "upgrade-lhcb",
@@ -739,12 +739,12 @@
     "description": "CP violation research on a whole new level.",
     "effect": "Future research of CP violation gives +1M reputation.",
     "icon": "fa-",
-    "cost": 4e11,
+    "cost": 4e1,
     "targets": [{"key": "research-cpv", "property": "reputation"}],
     "requirements": [
       { "key": "research-cpv", "property": "level", "threshold": 15 },
       { "key": "upgrade-lhc", "property": "used", "threshold": 1 }
     ],
-    "constant": 1e6
+    "constant": 1e1
   }
 ]
